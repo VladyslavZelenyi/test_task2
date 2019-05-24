@@ -7,9 +7,11 @@ import java.util.TreeSet;
 public class Main {
 
     public static void main(String[] args) {
-        //
+        int[] a = new int[] {1, 2, 3, 4, 5};
+        int X = 5;
+        findPairs(a, X);
     }
-    
+
     public static void findPairs(int[] arr, int X){
         Set<Integer> set = new TreeSet<>();
         ArrayList <ArrayList<Integer>> outerList = new ArrayList <ArrayList<Integer>>();
@@ -39,3 +41,8 @@ public class Main {
         }
     }
 }
+
+/*
+3 2
+4 1 
+ */
